@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Victor Landa</title>
+    <link rel="icon" type="image/png" href="images/logo.png" />
+    <link href="https://fonts.googleapis.com/css?family=Fjalla+One|Source+Sans+Pro" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/estilos.css">
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <figure class="logo">
+          <img src="images/logo.png" height="50" alt="Logo" />
+        </figure>
+        <nav class="menu">
+          <ol>
+            <li>
+              <a class="link" href="#portafolio">Portafolio</a>
+            </li>
+            <li>
+              <a class="link" href="#eventos">Experiencia</a>
+            </li>
+            <li>
+              <a class="link" href="#contacto">Trabajemos juntos</a>
+            </li>
+          </ol>
+        </nav>
+      </div>
+    </header>
+    <section class="hero">
+      <div class="container">
+        <h1>
+          Hola! Soy <strong>Victor Landa </strong> <br/> Desarrollador  <strong>Javascript
+        </h1>
+        <img class="hero-image" src="images/hero.png" width="500" height="300" alt="imagen principal del sitio"> 
+      </div>
+    </section>
+    <section id="portafolio" class="portfolio">
+      <div class="container">
+        <h2>Portafolio (Proyectos Destacados)</h2>
+      <article class="project">
+        <div class="project-details">
+          <h3 class="project-title">Conferencia de Escritores</h3>
+          <h6 class="project-course">HTML 5 / CSS / JavaScript / Bootstrap</h6>
+          <p class="project-date"><small><strong>Fecha:</strong> 12/02/2019</small></p>
+          <p class="project-url"><small><strong>Puedes verlo en:</strong> https://victor-landa.github.io/conf_escritores/</small></p>
+          <p class="project-description">Esta página fue hecha para dar a conocer la conferencia y las charlas ignite que se iban a realizar en la Ciudad de México, se buscaba resaltar sobre qué autores se iba a hablar durante el evento, la página cuenta con textos llamativos y se puso mucha atención en los detalles para que los usuarios tuvieran una experiencia satisfactoria al visitar el website.</p>
+        </div>
+        <figure class="project-imageContainer">
+          <img class="project-image" width="500" src="images/conf.png" alt="Conferencia">
+        </figure>
+      </article>
+      <article class="project">
+          <div class="project-details">
+            <h3 class="project-title">Forecast App</h3>
+            <h6 class="project-course">React / HTML 5 / CSS / JavaScript / JSX</h6>
+            <p class="project-date"><small><strong>Fecha:</strong> 27/02/2019</small></p>
+            <p class="project-url"><small><strong>Puedes verlo en:</strong> https://victor-landa.github.io/forecast-app/</small></p>
+            <p class="project-description">Esta aplicación fue hecha con el fin de aprender sobre React, ver cómo funcionan los componentes, usar API's y brindarle al usuario final una interfaz sencilla dónde podrá ver cómo está actualmente el clima de su ciudad y cómo lo estará en los próximos 4 días.</p>
+          </div>
+          <figure class="project-imageContainer">
+            <img class="project-image" width="500" src="images/forecast.png" alt="Forecast-app">
+          </figure>
+        </article>
+      </div>
+      
+    </section>
+    <div class="container">
+      <h2 class="event-list-title">Más sobre mi experiencia</h2>
+    </div>
+    <section id="eventos" class="event-list">
+      <div class="container">
+        <article class="event">
+          <figure class="event-imageContainer">
+            <img class="event-image" src="images/jsgame.png" width="500" />
+          </figure>
+          <div class="event-detail">
+            <h3 class="event-title"> Juego Simon Dice</h3>
+            <p class="event-description">Este juego lo desarrollé con JavaScript, HTML5 y CSS. El objetivo era conocer más de las funciones que nos brinda JavaScript, la manera en que podemos manipular cada elemento del website y hacerlo dinámico. Además al final pasas un buen rato pasando los niveles del juego.</p>
+            <a class="event-url" href="https://victor-landa.github.io/simondice/" target="_blank">Puedes verlo aquí!</a>
+          </div>
+        </article>
+        <article class="event">
+          <figure class="event-imageContainer">
+            <img class="event-image" src="images/calories.png" width="500" />
+          </figure>
+          <div class="event-detail">
+            <h3 class="event-title">Contador de Calorías</h3>
+            <p class="event-description">Este fue un proyecto que realicé para poner en práctica la programación funcional de JavaScript. Aquí podrás llevar un registro sobre cuántas calorías, carbohidratos y proteínas contienen tus alimentos para que al final se haga una suma del total de la energía que le das a tu cuerpo.</p>
+            <a class="event-url" href="https://victor-landa.github.io/calories_counter/" target="_blank">Puedes verlo aquí!</a>
+          </div>
+        </article>
+      </div>
+    </section>
+    <section id="contacto" class="contact">
+      <div class="container">
+        <form action="/suscripcion/" class="form-email">
+          <h3>¿Creamos algo juntos?</h3>
+          <input type="text" placeholder="Déjame tu email" id="email">
+          <button>Enviar</button>
+        </form>
+        <div class="social">
+          <a href="https://twitter.com/Vicktor_Landa" class="social-link twitter"></a>
+          <a href="https://www.facebook.com/victor.landa.750" class="social-link facebook"></a>
+          <a href="https://github.com/Victor-Landa" class="social-link github"></a>
+          <a href="https://www.instagram.com/victor_landa_/" class="social-link instagram"></a>
+        </div>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="container">
+        <div>
+          <p>Portafolio | Víctor Landa 2019 <img src="images/logo.png" width="30" alt="Victor"></p>
+        </div>
+        <div>
+          <p>
+            Designed by <a href="https://twitter.com/Vicktor_Landa">@Vicktor_Landa</a> 🎃
+          </p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
