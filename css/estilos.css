@@ -263,10 +263,11 @@ figure {
   border-radius: 5px;
   width: 100px;
   margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .form-email h3 { 
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 .container {
