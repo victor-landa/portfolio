@@ -38,6 +38,7 @@ h2{
   height: 300px;
   background-color: #1b2127;
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
 }
@@ -56,6 +57,7 @@ h2{
   padding: 20px;
   background: white;
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
   border-radius: 10px;
@@ -92,8 +94,8 @@ h2{
 
 .header {
   background-color: #1b2127;
-
   display: flex;
+  flex-wrap: wrap;
   height: 70px;
   align-items: center;
   justify-content: space-between;
@@ -152,6 +154,7 @@ figure {
   color: white;
   background-color: #1b2127;
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
 }
@@ -214,6 +217,7 @@ figure {
   color: white;
   height: 150px;
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
 }
@@ -272,11 +276,50 @@ figure {
 }
 
 .container {
-  width: 1000px;
+  max-width: 1000px;
+  /* width: 100%; */
+  flex: 1;
   margin: 0 auto;
   display: inherit;
   justify-content: inherit;
   align-items: inherit;
   height: inherit;
   flex-wrap: inherit;
+}
+
+/* Desktop First : Empezar desde el MQ más grande */
+
+@media screen and (max-width: 1024px){
+
+}
+
+@media screen and (max-width: 767px){
+  .header{
+    display: block;
+    height: auto;
+  }
+
+  .header ol{
+    display: block;
+  }
+
+  .header ol li{
+    height: 50px;
+  }
+
+  .header a{
+    justify-content: center;
+  }
+
+  .header .logo{
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 480){
+
+}
+
+@media screen and (max-width: 320px){
+
 }
