@@ -396,9 +396,36 @@ figure {
   }
 }
 
+@media screen and (max-width: 609px){
+  h1{
+    margin-left: 4em;
+  }
+}
+
+@media screen and (max-width: 373px){
+  h1{
+    margin-left: 2.5em;
+  }
+}
+
+@media screen and (max-width: 345px){
+  h1{
+    margin-left: 1.8em;
+  }
+}
+
+@media screen and (max-width: 331px){
+  h1{
+    margin-left: 1em;
+    font-size: .5em;
+  }
+}
+
+
 @media screen and (max-width: 541px){
   h1{
     font-size: 1.2em;
+    margin-left: 6.5em;
   }
 
   .project-details{
@@ -430,12 +457,6 @@ figure {
     text-align: center;
     border: 1px solid transparent;
   }
-
-  h1{
-    /* font-size: 1.2em; */
-    margin-left: 6em;
-    /* background: rgba(0, 0, 0, .8) */
-  }
 }
 
 @media screen and (max-width: 323px){
@@ -448,8 +469,9 @@ figure {
   }
 
   h1{
-    font-size: 1.3em;
-    margin-left: 1em;
+    font-size: 1.1em;
+    /* margin-left: ; */
+    margin-left: 1.4em;
     background: aliceblue;
   }
 
