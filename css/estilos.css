@@ -432,7 +432,7 @@ figure {
 @media screen and (max-width: 541px){
   h1{
     font-size: 1.2em;
-    margin-left: 3.7em;
+    margin-left: 1.5em;
   }
 
   .project-details{
@@ -476,8 +476,8 @@ figure {
   }
 
   h1{
-    font-size: 1.1em;
-    /* margin-left: ; */
+    font-size: 1em;
+    margin-left: 0.9em;
     margin-left: 1.4em;
     background: aliceblue;
   }
