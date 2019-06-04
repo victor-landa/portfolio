@@ -317,10 +317,10 @@ figure {
   }
 
   h1{
-    font-size: 1.9em;
+    font-size: 1.4em;
     z-index: 2;
     /* margin-left: 1.5em; */
-    margin-left: 6.4em;
+    /* margin-left: 6.4em; */
     background: aliceblue;
   }
 
@@ -396,43 +396,9 @@ figure {
   }
 }
 
-@media screen and (max-width: 609px){
-  h1{
-    margin-left: 4em;
-  }
-}
-
-@media screen and (max-width: 373px){
-  h1{
-    margin-left: 2.5em;
-  }
-}
-
-@media screen and (max-width: 345px){
-  h1{
-    margin-left: 1.8em;
-  }
-}
-
-@media screen and (max-width: 331px){
-  h1{
-    margin-left: 1em;
-    font-size: .5em;
-  }
-}
-
-@media screen and (max-width: 422px){
-  h1{
-    /* margin-left: 3.7em; */
-    /* font-size: .5em; */
-  }
-}
-
-
 @media screen and (max-width: 541px){
   h1{
     font-size: 1.2em;
-    margin-left: 1.5em;
   }
 
   .project-details{
@@ -476,9 +442,8 @@ figure {
   }
 
   h1{
-    font-size: 1em;
-    margin-left: 0.9em;
-    margin-left: 1.4em;
+    font-size: 1.3em;
+    margin-left: 1em;
     background: aliceblue;
   }
 
