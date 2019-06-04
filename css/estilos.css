@@ -22,7 +22,7 @@ h1{
 }
 
 h1 strong{
-  color: #ed7161;
+  color: #48a0dc;
 }
 
 h2{
@@ -299,6 +299,31 @@ figure {
     padding: 0 1em;
   }
 
+  .hero{
+    height: auto;
+    position: relative;
+    overflow: hidden;
+    padding: 2em;
+  }
+
+  .hero-image{
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+  }
+
+  h1{
+    font-size: 1.9em;
+    z-index: 2;
+    /* margin-left: 1.5em; */
+    margin-left: 6.4em;
+    background: aliceblue;
+  }
+
 }
 
 @media screen and (max-width: 767px){
@@ -372,6 +397,10 @@ figure {
 }
 
 @media screen and (max-width: 541px){
+  h1{
+    font-size: 1.2em;
+  }
+
   .project-details{
     font-size: 12px;
   }
@@ -401,6 +430,12 @@ figure {
     text-align: center;
     border: 1px solid transparent;
   }
+
+  h1{
+    /* font-size: 1.2em; */
+    margin-left: 6em;
+    /* background: rgba(0, 0, 0, .8) */
+  }
 }
 
 @media screen and (max-width: 323px){
@@ -410,5 +445,15 @@ figure {
   height: 40px;
   margin: 0 10px;
   background-size: 40px 40px;
+  }
+
+  h1{
+    font-size: 1.3em;
+    margin-left: 1em;
+    background: aliceblue;
+  }
+
+  .hero{
+    padding: 2em 1em;
   }
 }
