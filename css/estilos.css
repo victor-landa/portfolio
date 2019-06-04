@@ -268,11 +268,12 @@ figure {
   display: block;
   background: transparent;
   color: white;
-  padding: 10px 0;
+  padding: 7px 0;
   border-radius: 5px;
   width: 100px;
   margin-top: 10px;
   margin-bottom: 10px;
+  cursor: pointer;
 }
 
 .form-email h3 { 
@@ -294,6 +295,9 @@ figure {
 /* Desktop First : Empezar desde el MQ más grande */
 
 @media screen and (max-width: 1024px){
+  .container{
+    padding: 0 1em;
+  }
 
 }
 
@@ -367,7 +371,7 @@ figure {
   }
 }
 
-@media screen and (max-width: 480){
+@media screen and (max-width: 541px){
   .project-details{
     font-size: 12px;
   }
@@ -376,8 +380,35 @@ figure {
     margin: -2em .5em .5em;
     padding: 1em;
   }
+
+  .contact{
+    height: auto;
+    padding: 1.5em 0;
+    text-align: center;
+    display: block;
+  }
+
+  .form-email button{
+    margin: 1em auto;
+  }
+
+  .form-email h3{
+    margin-top: 0;
+  }
+
+  .footer{
+    display: block;
+    text-align: center;
+    border: 1px solid transparent;
+  }
 }
 
-@media screen and (max-width: 320px){
-
+@media screen and (max-width: 323px){
+  .social-link{
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  margin: 0 10px;
+  background-size: 40px 40px;
+  }
 }
