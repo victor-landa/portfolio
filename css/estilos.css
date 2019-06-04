@@ -421,11 +421,18 @@ figure {
   }
 }
 
+@media screen and (max-width: 422px){
+  h1{
+    /* margin-left: 3.7em; */
+    /* font-size: .5em; */
+  }
+}
+
 
 @media screen and (max-width: 541px){
   h1{
     font-size: 1.2em;
-    margin-left: 6.5em;
+    margin-left: 3.7em;
   }
 
   .project-details{
