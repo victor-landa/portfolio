@@ -32,7 +32,7 @@
 
 
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto', system-ui;
   margin: 0;
 }
 
@@ -42,7 +42,7 @@ h3,
 h4,
 h5,
 h6{
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto', system-ui;
   font-weight: normal;
 }
 
@@ -57,6 +57,7 @@ h1{
   letter-spacing: -.2px;
   color: white;
   margin: 0;
+  max-width: 500px;
 }
 
 h1 strong{
@@ -66,7 +67,7 @@ h1 strong{
 h2{
   color: #ed7161;
   text-transform: uppercase;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto', system-ui;
   font-weight: bold;
   font-size: 24px;
   margin-bottom: 40px;
@@ -113,7 +114,7 @@ h2{
 }
 
 .project strong {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto', system-ui;
 }
 
 .project-title {
@@ -316,7 +317,7 @@ figure {
 }
 
 .form-email h3 { 
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto', system-ui;
 }
 
 .container {
