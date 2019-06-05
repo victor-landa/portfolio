@@ -9,6 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
   </head>
   <body>
+    <i class="icon-menu burger-button" id="burger-menu"></i>
 
     <!-- Header -->
     <header class="header">
@@ -45,13 +46,15 @@
     <!-- Proyectos Destacados -->
     <section id="portafolio" class="portfolio">
       <div class="container">
-        <h2>Portafolio (Proyectos Destacados)</h2>
+        <h2>Proyectos Destacados</h2>
       <article class="project">
         <div class="project-details">
           <h3 class="project-title">Conferencia de Escritores</h3>
           <h6 class="project-course">HTML 5 / CSS / JavaScript / Bootstrap</h6>
           <p class="project-date"><small><strong>Fecha:</strong> 12/02/2019</small></p>
-          <p class="project-url"><small><strong>Puedes verlo en:</strong> https://victor-landa.github.io/conf_escritores/</small></p>
+          <p class="project-url"><small><strong>Puedes verlo en:</strong>
+          <a href="https://victor-landa.github.io/conf_escritores/">Conferencia sobre Escritores CDMX</a>
+          </small></p>
           <p class="project-description">Esta página fue hecha para dar a conocer la conferencia y las charlas ignite que se iban a realizar en la Ciudad de México, se buscaba resaltar sobre qué autores se iba a hablar durante el evento, la página cuenta con textos llamativos y se puso mucha atención en los detalles para que los usuarios tuvieran una experiencia satisfactoria al visitar el website.</p>
         </div>
         <figure class="project-imageContainer">
@@ -63,7 +66,10 @@
             <h3 class="project-title">Forecast App</h3>
             <h6 class="project-course">React / HTML 5 / CSS / JavaScript / JSX</h6>
             <p class="project-date"><small><strong>Fecha:</strong> 27/02/2019</small></p>
-            <p class="project-url"><small><strong>Puedes verlo en:</strong> https://victor-landa.github.io/forecast-app/</small></p>
+            <p class="project-url"><small><strong>Puedes verlo en:</strong>
+              <a href="https://victor-landa.github.io/forecast-app/"> Forecast
+              </a>
+            </small></p>
             <p class="project-description">Esta aplicación fue hecha con el fin de aprender sobre React, ver cómo funcionan los componentes, usar API's y brindarle al usuario final una interfaz sencilla dónde podrá ver cómo está actualmente el clima de su ciudad y cómo lo estará en los próximos 4 días.</p>
           </div>
           <figure class="project-imageContainer">
@@ -133,5 +139,34 @@
         </div>
       </div>
     </footer>
+
+    <!-- JavaScript -->
+    <script>
+      const ipad = window.matchMedia('screen and (max-width: 767px)');
+      const menu = document.querySelector('.menu');
+      const burgerButton = document.querySelector('#burger-menu');
+
+      
+      ipad.addListener(validation);
+      
+      
+      function validation(event){
+        if(event.matches){
+          burgerButton.addEventListener('click', hideShow);
+        }else{
+          burgerButton.removeEventListener('click', hideShow);
+        }
+      }
+      validation(ipad);
+
+      function hideShow(){
+        if(menu.classList.contains('is-active')){
+          menu.classList.remove('is-active');
+        }else{
+          menu.classList.add('is-active');
+        }
+      }
+    </script>
+
   </body>
 </html>
